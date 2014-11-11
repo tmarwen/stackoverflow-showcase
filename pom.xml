@@ -11,5 +11,7 @@
   
   <modules>
     <module>cxf-rest</module>
+    <module>gson-with-adapter</module>
+    <module>springmvc-angularjs</module>
   </modules>
 </project>
