@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>showcase</artifactId>
+    <groupId>com.github.tmawen.stackoverflow</groupId>
+    <version>1.0</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>27885785</artifactId>
+  <packaging>jar</packaging>
+
+  <name>Why can't I setText this jTextField?</name>
+  <description>
+    Why can't I setText this jTextField?
+    http://stackoverflow.com/questions/27885785/why-cant-i-settext-this-jtextfield
+  </description>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+</project>
