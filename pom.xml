@@ -11,7 +11,12 @@
   
   <modules>
     <module>cxf-rest</module>
+<<<<<<< HEAD
     <module>jetty-jersey-embedded</module>
     <module>27885785</module>
+=======
+    <module>gson-with-adapter</module>
+    <module>springmvc-angularjs</module>
+>>>>>>> e11c6c45d5e0d5f26ddf3d3c208f2ba81aba02e6
   </modules>
 </project>
