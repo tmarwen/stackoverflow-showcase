@@ -8,15 +8,22 @@
   <artifactId>showcase</artifactId>
   <version>1.0</version>
   <packaging>pom</packaging>
+
+  <name>StackOverflow Showcases</name>
+  <description>
+    A set of implemented showcase for some StackOverflow answered threads.
+  </description>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
   
   <modules>
     <module>cxf-rest</module>
-<<<<<<< HEAD
     <module>jetty-jersey-embedded</module>
-    <module>27885785</module>
-=======
+    <module>jframe-with-inheritance</module>
     <module>gson-with-adapter</module>
     <module>springmvc-angularjs</module>
->>>>>>> e11c6c45d5e0d5f26ddf3d3c208f2ba81aba02e6
+    <module>jframe-calculator</module>
   </modules>
 </project>
