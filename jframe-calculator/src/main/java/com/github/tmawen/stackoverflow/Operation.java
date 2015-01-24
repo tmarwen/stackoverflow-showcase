@@ -8,4 +8,38 @@ package com.github.tmawen.stackoverflow;
  */
 public enum Operation
 {
+  ADD
+      {
+        @Override
+        double apply(double argOne, double argTwo)
+        {
+          return argOne + argTwo;
+        }
+      },
+  SUBSTRUCT
+      {
+        @Override
+        double apply(double argOne, double argTwo)
+        {
+          return argOne - argTwo;
+        }
+      },
+  DEVIDE
+      {
+        @Override
+        double apply(double argOne, double argTwo)
+        {
+          return argOne / argTwo;
+        }
+      },
+  MULTIPLY
+      {
+        @Override
+        double apply(double argOne, double argTwo)
+        {
+          return argOne * argTwo;
+        }
+      };
+
+  abstract double apply(double argOne, double argTwo);
 }
