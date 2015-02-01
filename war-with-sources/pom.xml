@@ -53,11 +53,6 @@
             </goals>
           </execution>
         </executions>
-        <configuration>
-          <!--<outputDirectory>${project.build.directory}</outputDirectory>
-          <finalName>filename-of-generated-jar-file</finalName>-->
-          <attach>true</attach>
-        </configuration>
       </plugin>
     </plugins>
   </build>
