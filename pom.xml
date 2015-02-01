@@ -25,5 +25,6 @@
     <module>gson-with-adapter</module>
     <module>springmvc-angularjs</module>
     <module>jframe-calculator</module>
+    <module>war-with-sources</module>
   </modules>
 </project>

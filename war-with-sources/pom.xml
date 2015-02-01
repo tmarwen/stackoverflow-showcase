@@ -1,0 +1,65 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>showcase</artifactId>
+    <groupId>com.github.tmawen.stackoverflow</groupId>
+    <version>1.0</version>
+  </parent>
+
+  <artifactId>war-with-sources</artifactId>
+  <packaging>war</packaging>
+
+  <name>Include webapp sources in its lib directory</name>
+  <description>
+    Include Source JAR (of web application) in lib directory of WAR file
+    http://stackoverflow.com/questions/28255427/include-source-jar-of-web-application-in-lib-directory-of-war-file
+  </description>
+
+  <build>
+    <finalName>war-with-sources</finalName>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>package-and-attach-sources</id>
+            <phase>package</phase>
+          </execution>
+        </executions>
+        <configuration>
+          <webResources>
+            <resource>
+              <directory>${project.build.directory}</directory>
+              <includes>
+                <include>${project.build.finalName}-sources.jar</include>
+              </includes>
+              <targetPath>WEB-INF/lib</targetPath>
+            </resource>
+          </webResources>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-source-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>attach-sources</id>
+            <phase>prepare-package</phase>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <!--<outputDirectory>${project.build.directory}</outputDirectory>
+          <finalName>filename-of-generated-jar-file</finalName>-->
+          <attach>true</attach>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>
