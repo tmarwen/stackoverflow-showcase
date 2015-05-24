@@ -26,5 +26,7 @@
     <module>springmvc-angularjs</module>
     <module>jframe-calculator</module>
     <module>war-with-sources</module>
+    <module>relatife-directory-traversal</module>
+    <module>xstream-list</module>
   </modules>
 </project>
