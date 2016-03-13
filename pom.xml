@@ -28,5 +28,6 @@
     <module>war-with-sources</module>
     <module>relatife-directory-traversal</module>
     <module>xstream-list</module>
+    <module>resteasy-rest-service</module>
   </modules>
 </project>
