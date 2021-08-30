@@ -25,7 +25,7 @@ import java.util.Set;
 /**
  * app
  *
- * @author <a href="mailto:marwen.trabelsi.insat@gmail.com">Marwen Trabelsi</a>
+ * @author <a href="mailto:marouane.trab@gmail.com">Marouane Trabelsi</a>
  * @version 1.0
  */
 @ApplicationPath( "/rest" )

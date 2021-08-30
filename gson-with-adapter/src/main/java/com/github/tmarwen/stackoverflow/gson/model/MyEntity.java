@@ -1,9 +1,8 @@
-package github.tmarwen.stackoverflow.gson.model;
+package com.github.tmarwen.stackoverflow.gson.model;
 
 /**
- * Created by eXo Platform MEA on 26/09/14.
- *
- * @author <a href="mailto:mtrabelsi@exoplatform.com">Marwen Trabelsi</a>
+ * @author <a href="mailto:marouane.trab@gmail.com">Marouane Trabelsi</a>
+ * @since 26/09/14
  */
 public class MyEntity
 {

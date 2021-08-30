@@ -16,6 +16,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>8</maven.compiler.source>
+    <maven.compiler.target>8</maven.compiler.target>
   </properties>
   
   <modules>
@@ -29,5 +31,6 @@
     <module>relatife-directory-traversal</module>
     <module>xstream-list</module>
     <module>resteasy-rest-service</module>
+    <module>gson-net-date</module>
   </modules>
 </project>

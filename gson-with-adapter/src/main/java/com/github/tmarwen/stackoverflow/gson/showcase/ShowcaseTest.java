@@ -1,14 +1,13 @@
-package github.tmarwen.stackoverflow.gson.showcase;
+package com.github.tmarwen.stackoverflow.gson.showcase;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import github.tmarwen.stackoverflow.gson.adapter.GenericAdapter;
-import github.tmarwen.stackoverflow.gson.model.MyEntity;
+import com.github.tmarwen.stackoverflow.gson.adapter.GenericAdapter;
+import com.github.tmarwen.stackoverflow.gson.model.MyEntity;
 
 /**
- * Created by eXo Platform MEA on 26/09/14.
- *
- * @author <a href="mailto:mtrabelsi@exoplatform.com">Marwen Trabelsi</a>
+ * @author <a href="mailto:marouane.trab@gmail.com">Marouane Trabelsi</a>
+ * @since 26/09/14
  */
 public class ShowcaseTest
 {

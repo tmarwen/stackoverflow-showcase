@@ -5,9 +5,8 @@ import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 
 /**
- * Created by eXo Platform MEA on 23/09/14.
- *
- * @author <a href="mailto:mtrabelsi@exoplatform.com">Marwen Trabelsi</a>
+ * @author <a href="mailto:marouane.trab@gmail.com">Marouane Trabelsi</a>
+ * @since 26/09/14
  */
 public interface WebApi
 {

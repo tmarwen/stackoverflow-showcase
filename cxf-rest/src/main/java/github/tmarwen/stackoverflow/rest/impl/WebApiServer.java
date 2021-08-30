@@ -7,9 +7,8 @@ import org.slf4j.LoggerFactory;
 import javax.ws.rs.Path;
 
 /**
- * Created by eXo Platform MEA on 23/09/14.
- *
- * @author <a href="mailto:mtrabelsi@exoplatform.com">Marwen Trabelsi</a>
+ * @author <a href="mailto:marouane.trab@gmail.com">Marouane Trabelsi</a>
+ * @since 26/09/14
  */
 @Path("/web")
 public class WebApiServer implements WebApi

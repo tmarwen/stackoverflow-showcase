@@ -1,4 +1,4 @@
-package github.tmarwen.stackoverflow.gson.adapter;
+package com.github.tmarwen.stackoverflow.gson.adapter;
 
 import com.google.gson.TypeAdapter;
 import com.google.gson.stream.JsonReader;
@@ -10,9 +10,8 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 /**
- * Created by eXo Platform MEA on 26/09/14.
- *
- * @author <a href="mailto:mtrabelsi@exoplatform.com">Marwen Trabelsi</a>
+ * @author <a href="mailto:marouane.trab@gmail.com">Marouane Trabelsi</a>
+ * @since 26/09/14
  */
 public class GenericAdapter extends TypeAdapter<Object>
 {

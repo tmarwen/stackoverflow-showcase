@@ -7,7 +7,7 @@ import org.eclipse.jetty.servlet.ServletHolder;
 import org.glassfish.jersey.servlet.ServletContainer;
 
 /**
- * Created by marwen on 09/11/14.
+ * @since 09/11/14.
  */
 public class SimpleServer
 {
