@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <groupId>com.github.tmawen.stackoverflow</groupId>
+    <artifactId>showcase</artifactId>
+    <version>1.0</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>gson-net-date</artifactId>
+  <packaging>jar</packaging>
+  <name>Gson - Deserialize (old) .NET text date</name>
+  <description>
+    Deserialize single string/date from JsonObject to string in java
+    https://stackoverflow.com/questions/68984157/deserialize-single-string-date-from-jsonobject-to-string-in-java#68984157
+  </description>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.8</version>
+    </dependency>
+  </dependencies>
+
+</project>
