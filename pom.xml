@@ -25,6 +25,7 @@
         <module>jetty-jersey-embedded</module>
         <module>jframe-with-inheritance</module>
         <module>gson-with-adapter</module>
+        <module>gson-json-to-html</module>
         <module>springmvc-angularjs</module>
         <module>jframe-calculator</module>
         <module>war-with-sources</module>
